@@ -51,3 +51,36 @@ public class ToDoListApp {
         System.out.println("5. Exit");
         System.out.print("Choose an option: ");
     }
+
+    private static int getChoice() {
+        int choice;
+        try {
+            choice = Integer.parseInt(scanner.nextLine());
+        } catch (NumberFormatException e) {
+            choice = -1;
+        }
+        return choice;
+    }
+
+    private static void handleChoice(int choice) {
+        switch (choice) {
+            case 1:
+                addTask();
+                break;
+            case 2:
+                viewTasks();
+                break;
+            case 3:
+                markTaskAsCompleted();
+                break;
+            case 4:
+                deleteTask();
+                break;
+            case 5:
+                System.out.println("Goodbye!");
+                System.exit(0);
+                break;
+            default:
+                System.out.println("Invalid option. Please try again.");
+        }
+    }
