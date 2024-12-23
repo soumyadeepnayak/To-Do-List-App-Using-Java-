@@ -102,3 +102,16 @@ public class ToDoListApp {
             }
         }
     }
+    private static void markTaskAsCompleted() {
+        viewTasks();
+        if (!tasks.isEmpty()) {
+            System.out.print("Enter the number of the task to mark as completed: ");
+            int index = getChoice() - 1;
+            if (index >= 0 && index < tasks.size()) {
+                tasks.get(index).markAsCompleted();
+                System.out.println("Task marked as completed!");
+            } else {
+                System.out.println("Invalid task number.");
+            }
+        }
+    }
