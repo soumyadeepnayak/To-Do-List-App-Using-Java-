@@ -84,3 +84,10 @@ public class ToDoListApp {
                 System.out.println("Invalid option. Please try again.");
         }
     }
+
+    private static void addTask() {
+        System.out.print("Enter task description: ");
+        String description = scanner.nextLine();
+        tasks.add(new Task(description));
+        System.out.println("Task added!");
+    }
