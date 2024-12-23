@@ -91,3 +91,14 @@ public class ToDoListApp {
         tasks.add(new Task(description));
         System.out.println("Task added!");
     }
+
+    private static void viewTasks() {
+        if (tasks.isEmpty()) {
+            System.out.println("No tasks available.");
+        } else {
+            System.out.println("\nYour tasks:");
+            for (int i = 0; i < tasks.size(); i++) {
+                System.out.println((i + 1) + ". " + tasks.get(i));
+            }
+        }
+    }
