@@ -115,17 +115,3 @@ public class ToDoListApp {
             }
         }
     }
-    private static void deleteTask() {
-        viewTasks();
-        if (!tasks.isEmpty()) {
-            System.out.print("Enter the number of the task to delete: ");
-            int index = getChoice() - 1;
-            if (index >= 0 && index < tasks.size()) {
-                tasks.remove(index);
-                System.out.println("Task deleted!");
-            } else {
-                System.out.println("Invalid task number.");
-            }
-        }
-    }
-}
