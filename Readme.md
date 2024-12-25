@@ -30,11 +30,11 @@ This is a simple **To-Do List** application built using Java. The application ru
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/soumyadeepnayak/To-Do-List-App-Using-Java-.git
    ```
 2. **Navigate to the Project Directory**
    ```bash
-   cd todo_list_java
+   cd To-Do-List-App-Using-Java-
    ```
 3. **Compile the Application**
    ```bash
