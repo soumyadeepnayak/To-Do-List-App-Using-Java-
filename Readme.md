@@ -111,22 +111,6 @@ Goodbye!
 
 ---
 
-## Future Enhancements
-
-1. **Save Tasks**:
-   - Implement file storage to save tasks and reload them on application start.
-
-2. **GUI Version**:
-   - Use JavaFX or Swing to create a graphical interface for the application.
-
-3. **Database Integration**:
-   - Store tasks in a database (e.g., SQLite, MySQL) for persistent storage.
-
-4. **Web Application**:
-   - Use Spring Boot to create a web-based To-Do List application.
-
----
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
