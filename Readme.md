@@ -108,10 +108,3 @@ Your tasks:
 Choose an option: 5
 Goodbye!
 ```
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
