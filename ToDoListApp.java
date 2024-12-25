@@ -90,6 +90,7 @@ public class ToDoListApp {
         String description = scanner.nextLine();
         tasks.add(new Task(description));
         System.out.println("Task added!");
+        
     }
 
     private static void viewTasks() {
@@ -128,4 +129,5 @@ public class ToDoListApp {
             }
         }
     }
+    
 }
