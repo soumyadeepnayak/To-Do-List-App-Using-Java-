@@ -107,9 +107,8 @@ Your tasks:
 
 Choose an option: 5
 Goodbye!
-``
+```
 
----
 
 # To-Do List Application with Docker
 
@@ -122,6 +121,7 @@ Ensure the following files are in the same directory:
 /project-folder
   ├── Dockerfile
   ├── ToDoListApp.java
+
 ```
 
 
