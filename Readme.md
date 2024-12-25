@@ -107,4 +107,60 @@ Your tasks:
 
 Choose an option: 5
 Goodbye!
+``
+
+---
+
+# To-Do List Application with Docker
+
+
+## Directory Structure 
+
+Ensure the following files are in the same directory:
+
 ```
+/project-folder
+  ├── Dockerfile
+  ├── ToDoListApp.java
+```
+
+
+## Steps to Build and Run the Dockerized Application
+
+### 1. **Build the Docker Image**
+
+1. Open a terminal and navigate to the project directory.
+2. Run the following command to build the Docker image:
+   ```bash
+   docker build -t todo-list-app .
+   ```
+
+### 2. **Run the Docker Container**
+
+Start a container from the built image:
+   ```bash
+   docker run -itd  todo-list-app
+   ```
+
+### 3. **Stop the Container**
+
+To stop the running container:
+```bash
+docker stop todo-list-app
+```
+
+### 4. **Remove the Container (Optional)**
+
+If you no longer need the container:
+```bash
+docker rm todo-list-app
+```
+
+### 5. **Remove the Image (Optional)**
+
+If you want to delete the Docker image:
+```bash
+docker rm todo-list-app
+```
+
+
